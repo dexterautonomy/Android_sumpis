@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.teamwurkz.chinedu.sump1.MainActivity"
+    android:id="@+id/con"
+    android:background="@color/backgroundColor">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/conpx">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+                <CheckBox
+                    android:id="@+id/checkbox1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10sp"
+                    android:text="Remember"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+                <Button
+                    android:id="@+id/loginBut"
+                    style="@style/Widget.AppCompat.Button.Small"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+
+                <TextView
+                    android:id="@+id/signuplab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+
+                <TextView
+                    android:id="@+id/lostacct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot details?"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="17sp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/compose"
+        android:icon="@drawable/compose"
+        android:title="Compose" />
+    <item
+        android:id="@+id/postnews"
+        android:icon="@drawable/newspost"
+        android:title="Newspost" />
+</menu>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teamwurkz.chinedu.sump1.SignUpActivity"
+    android:background="@color/backgroundColor">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarsignup"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Firstname"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Lastname"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <EditText
+                android:id="@+id/usernamex"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="Mobile: e.g +4412358421"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <EditText
+                android:id="@+id/pswd1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <EditText
+                android:id="@+id/pswd2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Confirm password"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10sp"
+                android:text="Accept Terms and Condition"
+                android:textSize="14sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/register"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

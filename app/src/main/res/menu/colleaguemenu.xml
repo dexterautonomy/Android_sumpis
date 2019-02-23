@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.teamwurkz.chinedu.sump1.MainActivity">
+
+    <item
+        android:id="@+id/k1x"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="ADD"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/k2x"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="REMOVE"
+        app:showAsAction="always" />
+</menu>

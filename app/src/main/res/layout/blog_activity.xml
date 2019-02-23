@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.teamwurkz.chinedu.sump1.BlogActivity">
+
+   <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarBlog"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+   </android.support.design.widget.AppBarLayout>
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/cenvv2">
+
+       <android.support.v4.widget.SwipeRefreshLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/srl">
+
+           <ListView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/bd"
+               android:dividerHeight="10.0sp">
+           </ListView>
+       </android.support.v4.widget.SwipeRefreshLayout>
+
+   </FrameLayout>
+</LinearLayout>

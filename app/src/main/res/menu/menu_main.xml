@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.teamwurkz.chinedu.sump1.MainActivity">
+
+    <item
+        android:id="@+id/k1"
+        android:title="News"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/k2"
+        android:title="Blog"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/k3"
+        android:title="About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/k4"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+</menu>

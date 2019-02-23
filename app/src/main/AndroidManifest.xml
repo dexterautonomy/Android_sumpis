@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamwurkz.chinedu.sump1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Sumpis"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Sumpis"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisteredUsers"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged">
+            <intent-filter>
+                <action android:name="com.teamwurkz.chinedu.sump1.Sumsub" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OutputActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Output"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".NewsActivity"
+            android:label="News"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Register"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".BlogActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewsReaderActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="" />
+        <activity
+            android:name=".BlogReaderActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="" />
+        <activity
+            android:name=".ComposeActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Compose"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ColleagueActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Colleagues"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewsPostActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Newspost"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".BlogPostActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="Sumblog"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateUnchanged"></activity>
+
+        <activity
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:name=".InboxActivity"
+            android:label="Inbox"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

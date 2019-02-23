@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sump1</string>
+
+    <string name="title_activity_sum_sub">SumSub</string>
+
+    <string-array name="options">
+        <item>--select--</item>
+        <item>PARAPHRASE</item>
+        <item>STREAM-SUMMARY</item>
+        <item>SENTENCE COUNT</item>
+        <item>WORD COUNT</item>
+        <item>PARA-SUMMARY</item>
+        <item>REARRANGE</item>
+    </string-array>
+
+    <string-array name="options2">
+        <item>--select--</item>
+        <item>RESEND TO INPUT</item>
+        <item>DOWNLOAD</item>
+        <item>FORWARD</item>
+        <item>POST THIS</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

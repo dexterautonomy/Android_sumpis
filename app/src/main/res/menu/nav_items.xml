@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/v1"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/v2"
+        android:title="Go Premium"
+        app:showAsAction="always"
+        android:icon="@drawable/premium2"/>
+    <item
+        android:id="@+id/v3"
+        android:title="Compose message"
+        app:showAsAction="always"
+        android:icon="@drawable/compose"/>
+    <item
+        android:id="@+id/v4"
+        android:title="Inbox"
+        app:showAsAction="always"
+        android:icon="@drawable/inbox"/>
+    <item
+        android:id="@+id/v5"
+        android:title="Requests"
+        app:showAsAction="always"
+        android:icon="@drawable/requests"/>
+    <item
+        android:id="@+id/v6"
+        android:title="Newsposts"
+        app:showAsAction="always"
+        android:icon="@drawable/newspost"/>
+    <item
+        android:id="@+id/v7"
+        android:title="News"
+        app:showAsAction="always"
+        android:icon="@drawable/news"/>
+    <item
+        android:id="@+id/v8"
+        android:title="Settings"
+        app:showAsAction="always"
+        android:icon="@drawable/settings"/>
+    <item
+        android:id="@+id/v9"
+        android:title="Logout"
+        app:showAsAction="always"
+        android:icon="@drawable/logout"/>
+</menu>
